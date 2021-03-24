@@ -1,0 +1,5 @@
+cuda: '0'
+input: 'image' #'dicom' or 'image'
+fl_gradcam: True
+Nens: 3 # 1 (for single) or 3 (for ensemble using 3 models)
+hmp_dims: 512

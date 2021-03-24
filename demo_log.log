@@ -1,0 +1,14 @@
+2021-03-24 16:54:06,624 0 [INFO ] pytorch version: 1.2.0
+2021-03-24 16:54:06,624 0 [INFO ] torchvision version: 0.4.0a0+6b959ee
+2021-03-24 16:54:06,624 0 [INFO ] runtime path: /home/doyunkim/works/cxr/demo_cxr_siim/demo_cxr_classification
+2021-03-24 16:54:06,624 0 [INFO ] random seed for reproducible: 20
+2021-03-24 16:54:06,640 0 [INFO ] use cuda on GPU [0]
+2021-03-24 16:54:08,388 0 [DEBUG] loading dataset manifest /home/doyunkim/works/cxr/demo_cxr_siim/demo_cxr_classification/input_dir/IMAGEFILE/images.csv ...
+2021-03-24 16:54:08,394 0 [DEBUG] 0 entries are loaded.
+2021-03-24 16:54:08,394 0 [INFO ] using (0) cases for demo
+2021-03-24 16:54:08,395 0 [DEBUG] loading the model from /home/doyunkim/works/cxr/demo_cxr_siim/demo_cxr_classification/models/multitask_model_00.pth.tar
+2021-03-24 16:54:08,459 0 [DEBUG] there is no pkl to load.
+2021-03-24 16:54:08,464 0 [DEBUG] loading the model from /home/doyunkim/works/cxr/demo_cxr_siim/demo_cxr_classification/models/multitask_model_01.pth.tar
+2021-03-24 16:54:08,539 0 [DEBUG] there is no pkl to load.
+2021-03-24 16:54:08,542 0 [DEBUG] loading the model from /home/doyunkim/works/cxr/demo_cxr_siim/demo_cxr_classification/models/multitask_model_02.pth.tar
+2021-03-24 16:54:08,602 0 [DEBUG] there is no pkl to load.
