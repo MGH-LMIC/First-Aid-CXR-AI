@@ -43,8 +43,12 @@ $ sudo nvidia-docker build . -t cxr-ai-lmic:1.0 -f config_dir/Dockerfile
 ### 3. Run image
 Open the terminal
 ```sh
+$ export WORK_DIR="/path/to/work/dir"
+$ export INPUT_DIR="$WORK_DIR/input_dir"
+$ export OUTPUT_DIR="$WORK_DIR/output_dir"
+
 # Run docker image (background option: -d)
-$ sudo nvidia-docker run -d --gpus all -v <output_dir>:/usr/app/output_dir -v <input_dir>:/usr/app/input_dir --name cxr_ai -it cxr-ai-lmic:1.0 /bin/bash
+$ sudo nvidia-docker run -d --gpus all -v $OUTPUT_DIR:/usr/app/output_dir -v $INPUT_DIR:/usr/app/input_dir --name cxr_ai -it cxr-ai-lmic:1.0 /bin/bash
 ```
 
 ### 4. Run demo
