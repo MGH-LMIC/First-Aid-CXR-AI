@@ -59,10 +59,10 @@ $ sudo nvidia-docker exec -i -t cxr_ai python demo_cxr.py
 ```
 
 **[Input preparation before the model runs]**
-- For dicom inputs: you have to copy dicom files as you run to `/input_dir/DICOM`
-- For image inputs: you have to copy any image files as you run to `/input_dir/IMAGEFILE`
+- For dicom inputs: you have to copy dicom files as you run to `input_dir/DICOM`
+- For image inputs: you have to copy any image files as you run to `input_dir/IMAGEFILE`
 
 **[Expected outputs]**
-- Prediction : Predicted values for every task saved to `/output_dir/Classification/prediction.txt`
-- Probability: Predicted probabilities for every task saved to `/output_dir/Classification/probability.txt`
-- Grad-CAM   : Grad-CAM for 6 abnormal features saved to `/output_dir/PDF/<inpu-file-name>_<abnormal-feature-name>_hmp.pdf`
+- Prediction : Predicted values for every task saved to `output_dir/Classification/prediction.txt`
+- Probability: Predicted probabilities for every task saved to `output_dir/Classification/probability.txt`
+- Grad-CAM   : Grad-CAM for 6 abnormal features saved to `output_dir/PDF/<inpu-file-name>_<abnormal-feature-name>_hmp.pdf`
