@@ -59,6 +59,7 @@ $ sudo nvidia-docker exec -i -t cxr_ai python demo_cxr.py
 ```
 
 **[Input preparation before the model runs]**
+- You have to change `input` in config.yaml according to your input type: `dicom` or `image`
 - For dicom inputs: you have to copy dicom files as you run to `input_dir/DICOM`
 - For image inputs: you have to copy any image files as you run to `input_dir/IMAGEFILE`
 
